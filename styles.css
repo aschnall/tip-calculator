@@ -1,0 +1,64 @@
+body {
+	background: rgb(68,221,240);
+	background: linear-gradient(90deg, rgba(68,221,240,1) 0%, rgba(0,185,255,1) 100%);
+}
+
+.container {
+	margin: 50px auto;
+	max-width: 400px;
+	border-radius: 10px;
+	min-height: 500px;
+	background-color: #fdf4d9;
+}
+
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 0;
+	background-color: #04778e;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: #f4fdff;
+}
+
+form > ul {
+	padding: 0;
+}
+
+.flex li {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex > li > label {
+	font-size: 20px;
+}
+
+.flex > li > * {
+	margin: 5px 0;
+}
+
+.flex > li > button {
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #2196f36b;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #23211d;
+}
+
+.flex > li > button:hover {
+	cursor: pointer;
+}
+
+#tip-text, #total-text {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#tip-text, #total-text, #tip, #total {
+	margin: 5px 0;
+}
